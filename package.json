@@ -1,0 +1,22 @@
+{
+  "name": "vt9nx",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "files":["lib"],
+  "bin":{
+    "vt9nx":"./lib/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.19.0",
+    "glob-stream": "^6.1.0",
+    "mkdirp": "^0.5.1",
+    "vue-sfc-parser": "^0.1.2"
+  }
+}
