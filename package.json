@@ -1,8 +1,11 @@
 {
   "name": "vt9nx",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/cli.js",
+  "engines": {
+    "node": ">=8.3.0"
+  },
   "files": [
     "lib"
   ],
@@ -15,10 +18,13 @@
   "author": "reda.bendiar@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "commander": "^2.19.0",
+    "bidi-map": "^0.1.1",
+    "caporal": "^1.1.0",
     "glob-stream": "^6.1.0",
+    "lodash": "^4.17.11",
     "mkdirp": "^0.5.1",
+    "shelljs": "^0.8.3",
     "vue-sfc-parser": "^0.1.2"
-  }
+  },
+  "devDependencies": {}
 }

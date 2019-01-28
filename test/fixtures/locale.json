@@ -1,0 +1,17 @@
+{
+    "base": {
+        "how_to_play": "How To Play",
+        "browse_cards": "Browse Cards",
+        "marketplace": "Marketplace",
+        "profile": "Profile",
+        "my_cards": "My Cards",
+        "my_packs": "My Packs",
+        "card_pack": "Card Pack",
+        "all_items": "All items",
+        "load_more": "Load more",
+        "overview": "Overview",
+        "discussions": "Discussions",
+        "stats": "Stats",
+        "edition": "Edition"
+    }
+}
